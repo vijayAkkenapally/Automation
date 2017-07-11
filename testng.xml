@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "HHIMS2">
+<listeners>
+        <listener class-name="HHIMS.Custom" />
+</listeners>
+
+<test name = "NHS">
+<classes>
+<class name = "HHIMS.Start" />
+</classes>
+</test>
+</suite>
